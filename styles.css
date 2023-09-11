@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'UnifrakturCook', cursive;
+    background-color: black;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+/* Add more styles for other sections as needed */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
